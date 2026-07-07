@@ -11,13 +11,23 @@
 </head>
 
 <body>
+<header class="hero">
 
-    <h1>🛡️ Hälsotestet</h1>
+    <div class="container">
 
-    <p>Välkommen till Hälsotestet.</p>
+        <h1>Hälsotestet</h1>
 
-    <p>Version 0.1 är igång 🚀</p>
+        <p class="subtitle">
+            Vetenskapligt baserade självskattningstester för psykisk och fysisk hälsa.
+        </p>
 
+        <a href="#" class="button">
+            Starta ett test
+        </a>
+
+    </div>
+
+</header>
 </body>
 
 </html>
