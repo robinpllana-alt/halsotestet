@@ -1,23 +1,87 @@
-/* Hälsotestet v0.1 */
+/* Reset */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f8fafc;
-    color: #1f2937;
-    padding: 40px;
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#F8FAFC;
+    color:#1F2937;
 }
 
-h1 {
-    color: #0f172a;
-    margin-bottom: 10px;
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    background:linear-gradient(135deg,#0F172A,#1E293B);
+
+    color:white;
+
 }
 
-p {
-    color: #475569;
+.container{
+
+    width:90%;
+
+    max-width:900px;
+
+}
+
+h1{
+
+    font-size:64px;
+
+    margin-bottom:25px;
+
+}
+
+.subtitle{
+
+    font-size:22px;
+
+    line-height:1.6;
+
+    margin-bottom:50px;
+
+    opacity:.9;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    padding:18px 40px;
+
+    background:#00B894;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+.button:hover{
+
+    transform:translateY(-3px);
+
 }
